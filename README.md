@@ -7,6 +7,7 @@
 * Perform all actions on home-1 unless asked to ssh into another server. Always return to home-1 after completing tasks on other servers.
 * The password for the root user is "vagrant"
 * The following programs are installed for your convenience and they are not guaranteed to be automatically installed on the exam and in general as of this writing they are not installed by default on CentOS 7. But it has been reported that there is not much you should have to install on the exam.
+
   | Program Name | Package Name |
   | ------ | ------ |
   | lsof | lsof |
