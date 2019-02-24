@@ -4,7 +4,7 @@
   2. Create groups: engineers
   3. Create the following directories 
 
-    * /root/unique/dir2
+    *  /root/unique/dir2
     * /root/search/6
     * /root/search/6/erased
     * /root/backups/7
