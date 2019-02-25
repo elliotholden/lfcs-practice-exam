@@ -5,9 +5,11 @@
 **Home Server**
 
   1. Create users: eric, linda
+  2. Set password for eric and linda to "redhat"
   2. Create groups: engineers
   3. Create the following directories 
 
+*     /root/unique/dir1
 *     /root/unique/dir2
 *     /root/search/6
 *     /root/search/6/erased
