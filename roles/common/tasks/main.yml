@@ -1,0 +1,10 @@
+- name: Install common tools used by all servers
+  yum: name={{ item }} state=installed
+  with_items:
+    - lsof
+    - tree
+    - elinks
+    - bind-utils 
+    - net-tools 
+    - policycoreutils-python
+    - traceroute

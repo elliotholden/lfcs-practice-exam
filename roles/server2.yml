@@ -1,0 +1,10 @@
+---
+- name: Configure Server2 server
+  hosts: server2
+  gather_facts: no
+  become: yes
+
+  roles:
+    - common
+    - server2
+

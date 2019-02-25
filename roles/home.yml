@@ -1,0 +1,9 @@
+---
+- name: Configure Home server
+  hosts: home
+  gather_facts: no
+  become: yes
+
+  roles:
+    - common
+    - home
