@@ -16,5 +16,6 @@
   | dig          | bind-utils             |
   | nslookup     | bind-utils             |
   | route        | net-tools              |
+  | netstat      | net-tools              |
   | semanage     | policycoreutils-python |
   | traceroute   | traceroute             |
