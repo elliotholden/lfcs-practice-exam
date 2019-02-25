@@ -1,3 +1,7 @@
+**All Servers**
+1. ~~Install standard packages used by all servers:~~
+    *       lsof, tree, elinks, bind-utils, net-tools, policycoreutils-python, traceroute
+
 **Home Server**
 
   1. Create users: eric, linda
