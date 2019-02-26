@@ -28,4 +28,45 @@
     - '/root/search/6'
     - '/root/search/6/erased'
     - '/root/backups/7'
+    - '/root/backups/7/restored'
+    - '/root/found/9/start_with_ab'
+    - '/root/found/9/directories'
+    - '/root/other_users'
+    - '/root/root_user'
     - '/root/opt/vbox/links'
+
+- name: Copy text files to /root/unique/dir1
+  copy:
+    src: "{{ item }}"
+    dest: /root/unique/dir1
+  with_items:
+    - 'file_01.txt'
+    - 'file_02.txt'
+    - 'file_03.txt'
+    - 'file_04.txt'
+    - 'file_05.txt'
+    - 'file_06.txt'
+    - 'file_07.txt'
+    - 'file_08.txt'
+    - 'file_09.txt'
+    - 'file_10.txt'
+
+- name: Copy text files to /root/unique/dir2
+  copy:
+    src: "{{ item }}"
+    dest: /root/unique/dir2
+  with_items:
+    - 'file_01.txt'
+    - 'file_02.txt'
+    - 'file_03.txt'
+    - 'file_05.txt'
+    - 'file_06.txt'
+    - 'file_07.txt'
+    - 'file_09.txt'
+    - 'file_10.txt'
+
+- name: Create symlink in /root/opt/vbox/links/uninstall.sh
+  file:
+    src: /opt/VBoxGuestAdditions/uninstall.sh
+    dest: /root/opt/vbox/links/uninstall.sh
+    state: link
