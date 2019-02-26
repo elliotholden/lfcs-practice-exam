@@ -1,0 +1,31 @@
+# For instructions on creating the hashed user passwords you see below go here:
+# https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#how-do-i-generate-crypted-passwords-for-the-user-module
+- name: Create user 'eric'
+  user:
+    name: eric
+    comment: Eric Johnson
+    password: $6$rounds=656000$mysecretsalt$QizTP3eI28R.NcN.vSBMNTL.w0hJu0pmHYTcUgWBQb0Jzt1mSyYp/66LsTwVmNnQHvs.wIEpmonvAvsfpGvMr/
+    update_password: on_create
+
+- name: Create user 'linda'
+  user:
+    name: linda
+    comment: Linda Ronstadt
+    password: $6$rounds=656000$mysecretsalt$QizTP3eI28R.NcN.vSBMNTL.w0hJu0pmHYTcUgWBQb0Jzt1mSyYp/66LsTwVmNnQHvs.wIEpmonvAvsfpGvMr/
+    update_password: on_create
+
+- name: Create group 'engineers'
+  group:
+    name: engineers
+
+- name: Create directories
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - '/root/unique/dir1'
+    - '/root/unique/dir2'
+    - '/root/search/6'
+    - '/root/search/6/erased'
+    - '/root/backups/7'
+    - '/root/opt/vbox/links'
