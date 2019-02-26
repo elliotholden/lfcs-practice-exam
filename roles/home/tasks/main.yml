@@ -65,6 +65,11 @@
     - 'file_09.txt'
     - 'file_10.txt'
 
+- name: Copy VBoxGuestAdditions directory to home server
+  copy:
+    src: 'VBoxGuestAdditions'
+    dest: /opt/
+
 - name: Create symlink in /root/opt/vbox/links/uninstall.sh
   file:
     src: /opt/VBoxGuestAdditions/uninstall.sh
