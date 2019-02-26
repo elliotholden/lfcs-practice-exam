@@ -1,3 +1,6 @@
+*This is just a list of things that need to be done to each server (provisioning). I use it as a guide for writting my playbooks.*
+
+
 **All Servers**
 1. ~~Install standard packages used by all servers:~~
     *       lsof, tree, elinks, bind-utils, net-tools, policycoreutils-python, traceroute
