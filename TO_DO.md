@@ -24,15 +24,16 @@
 *     /root/root_user
 *     /root/opt/vbox/links
 
- 4. Copy file_01.txt - file_10.txt to /root/unique/dir1
- 5. Copy file_01.txt - file_08.txt to /root/unique/dir2
+ 4. ~~Copy file_01.txt - file_10.txt to /root/unique/dir1~~
+ 5. ~~Copy file_01.txt - file_08.txt to /root/unique/dir2~~
  6. Create failed login attemps for linda
- 7. Create a soft link named /root/opt/vbox/links/uninstall.sh that points to /opt/VBoxGuestAdditions/uninstall.sh
+ 7. ~~Create a soft link named /root/opt/vbox/links/uninstall.sh that points to /opt/VBoxGuestAdditions/uninstall.sh~~
 
 **Server 1**
 
   1.
   2. 
+
 
 **Server 2**
 
