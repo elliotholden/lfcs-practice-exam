@@ -1,0 +1,21 @@
+- name: Install Apache
+  yum:
+    name: httpd
+    state: present 
+
+- name: Copy default.conf to /etc/httpd/conf.d/
+  copy:
+    src: default.conf
+    dest: /etc/httpd/conf.d/
+
+- name: Copy index.html to /var/www/html
+  copy:
+    src: index.html 
+    dest: /var/www/html/ 
+
+- name: Enable and start Apache
+  systemd:
+    name: httpd
+    enabled: yes
+    state: restarted
+

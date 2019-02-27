@@ -4,7 +4,19 @@
     - lsof
     - tree
     - elinks
+    - telnet
     - bind-utils 
     - net-tools 
     - policycoreutils-python
     - traceroute
+
+- name: Congfigure /etc/hosts
+  lineinfile:
+    path: /etc/hosts
+    line: "{{ item }}"
+    insertafter: EOF
+    state: present
+  with_items:
+    - '1.2.3.4     home    home1   home-1'
+    - '1.2.3.5     server1     server-1    lfcs-practice.com   server1.lfcs-practice.com'
+    - '1.2.3.6     server2     server-2'

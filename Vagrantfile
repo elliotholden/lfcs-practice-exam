@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     s1.vm.network "private_network", ip: "1.2.3.5"
     s1.vm.provision "Server1", type: "ansible" do |a|
       a.playbook = "roles/server1.yml"
-    #  a.tags = "execute"
+      # a.tags = "execute"
     end
   end
   config.vm.define "server2" do |s2|
