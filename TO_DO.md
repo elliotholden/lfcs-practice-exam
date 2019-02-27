@@ -35,7 +35,7 @@
 
 **Server 1**
 
-  1. Install Apache webserver and create main server configuration called lfcs-practice.com
+  1. ~~Install Apache webserver and create main server configuration called lfcs-practice.com~~
   2. 
 
 
