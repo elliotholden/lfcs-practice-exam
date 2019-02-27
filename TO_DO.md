@@ -4,6 +4,10 @@
 **All Servers**
 1. ~~Install standard packages used by all servers:~~
     *       lsof, tree, elinks, bind-utils, net-tools, policycoreutils-python, traceroute
+2. Configure /etc/hosts on all servers with the following:
+    *   ~~1.2.3.4   home    home1   home-1~~
+    *   ~~1.2.3.5     server1     server-1    lfcs-practice.com   server1.lfcs-practice.com~~
+    *   ~~1.2.3.6     server2     server-2~~
 
 **Home Server**
 
@@ -31,7 +35,7 @@
 
 **Server 1**
 
-  1.
+  1. ~~Install Apache webserver and create main server configuration called lfcs-practice.com~~
   2. 
 
 
