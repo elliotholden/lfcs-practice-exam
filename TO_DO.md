@@ -1,4 +1,4 @@
-*This is just a list of things that need to be done to each server (provisioning). I use it as a guide for writting my playbooks.*
+*This is just a list of things that need to be done to each server (provisioning). I use it as a guide for writing my playbooks.*
 
 
 **All Servers**
