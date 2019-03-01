@@ -17,5 +17,22 @@
   systemd:
     name: httpd
     enabled: yes
-    state: restarted
+    state: started 
 
+- name: Install MariaDB
+  yum:
+    name: mariadb-server
+    state: present
+
+- name: Enable and restart MaraiDB
+  systemd:
+    name: mariadb
+    enabled: yes
+    state: started 
+
+- name: Added MySQL user root@'%'
+  mysql_user:
+    name: root
+    host: '%'
+    state: present
+  tags: execute
