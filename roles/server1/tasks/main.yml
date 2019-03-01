@@ -40,4 +40,6 @@
   mysql_user:
     name: root
     host: '%'
+    priv: '*.*:ALL'
     state: present
+  tags: execute
