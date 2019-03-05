@@ -38,6 +38,7 @@
   1. ~~Install Apache webserver and create main server configuration called lfcs-practice.com~~
   2. ~~Install MySQL and allow remote access for root user~~
   3. ~~Install iptables-services, enable iptables on boot, configure iptables for httpd, samba and nfs~~
+  4. ~~Create additional storage (sdb, sdc and sdd) to be used for raid and swap exercises~~
 
 
 **Server 2**
