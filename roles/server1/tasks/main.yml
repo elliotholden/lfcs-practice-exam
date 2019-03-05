@@ -42,4 +42,3 @@
     host: '%'
     priv: '*.*:ALL'
     state: present
-  tags: execute

@@ -1,3 +1,4 @@
 *.box
 .vagrant/
 *.retry
+*.vmdk

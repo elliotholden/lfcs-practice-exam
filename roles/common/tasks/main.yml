@@ -5,6 +5,7 @@
     - tree
     - elinks
     - telnet
+    - screen
     - bind-utils 
     - net-tools 
     - policycoreutils-python
