@@ -1,5 +1,11 @@
 * The purpose of this project is to provide a practice environment to use in studying for the Linux Foundations Certified Systems Adminstrator Exam
 
+# Prerequisites
+You need the following installed on your Mac, Windows or Linux computer:
+* Ansbile
+* VirtualBox
+
+
 * In VirtualBox a private "vboxnet" netowrk will be created and a "Host-only Adapter" will be configured as the 2nd network adapter on each virtual machine. Each server's ip address will be automatically convigured as follows:
   * home: 1.2.3.4
   * server1: 1.2.3.5
