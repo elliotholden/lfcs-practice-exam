@@ -1,6 +1,6 @@
-* This purpose of this project is to provide a practice environment to use in studying for the Linux Foundations Certified Systems Adminstrator Exam
+* The purpose of this project is to provide a practice environment to use in studying for the Linux Foundations Certified Systems Adminstrator Exam
 
-* In VirtualBox a private "vboxnet" netowrk will be created and a  "Host-only Adapter" will be configured as the 2nd network adapter on each virtual machine. Each server's ip address will be automatically convigured as follows:
+* In VirtualBox a private "vboxnet" netowrk will be created and a "Host-only Adapter" will be configured as the 2nd network adapter on each virtual machine. Each server's ip address will be automatically convigured as follows:
   * home: 1.2.3.4
   * server1: 1.2.3.5
   * server2: 1.2.3.6
