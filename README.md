@@ -6,7 +6,7 @@ You need the following installed on your Mac, Windows or Linux computer:
 * VirtualBox
 
 
-* In VirtualBox a private "vboxnet" netowrk will be created and a "Host-only Adapter" will be configured as the 2nd network adapter on each virtual machine. Each server's ip address will be automatically convigured as follows:
+* In VirtualBox a private "vboxnet" network will be created and a "Host-only Adapter" will be configured as the 2nd network adapter on each virtual machine. Each server's ip address will be automatically convigured as follows:
   * home: 1.2.3.4
   * server1: 1.2.3.5
   * server2: 1.2.3.6
